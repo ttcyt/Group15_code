@@ -39,7 +39,7 @@ source venv/bin/activate
 
 ### 2. 安裝所有package
 ```bash
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio
 pip install transformers librosa scipy soundfile pydub flask flask-cors kagglehub scikit-learn matplotlib tqdm notebook
 ```
 
