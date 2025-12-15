@@ -22,7 +22,7 @@
 ### 檢查系統
 ```bash
 python --version          
-nvidia-smi                
+nvidia-smi （可選)              
 which ffmpeg              
 ```
 
