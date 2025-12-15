@@ -38,9 +38,23 @@ source venv/bin/activate
 
 
 ### 2. 安裝所有package
+
+**對於 macOS 用戶（推薦）：**
+```bash
+pip install torch torchvision torchaudio
+pip install transformers librosa scipy soundfile pydub flask flask-cors kagglehub scikit-learn matplotlib tqdm notebook
+```
+
+**對於 Linux/Windows 用戶（搭配 NVIDIA GPU）：**
 ```bash
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install transformers librosa scipy soundfile pydub flask flask-cors kagglehub scikit-learn matplotlib tqdm notebook
+```
+
+**或使用 Conda（推薦）：**
+```bash
+conda install pytorch torchvision torchaudio -c pytorch
+conda install transformers librosa scipy soundfile pydub flask flask-cors kagglehub scikit-learn matplotlib tqdm notebook
 ```
 
 ### 3. 安裝 FFmpeg (macOS)
