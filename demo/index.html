@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Fake/Real Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #startBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #stopBtn {
+            background-color: #f44336;
+            color: white;
+            display: none;
+        }
+        #predictionLog {
+            border: 1px solid #ddd;
+            padding: 10px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        .prediction-item {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #f0f0f0;
+            border-left: 3px solid #2196F3;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fake / Real Voice Detection</h1>
+
+    <button id="startBtn">Start Continuous Detection</button>
+    <button id="stopBtn">Stop Detection</button>
+    <p>Status: <span id="status">Not running</span></p>
+    
+    <h3>Recent Predictions:</h3>
+    <div id="predictionLog"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
