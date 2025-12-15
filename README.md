@@ -1,7 +1,7 @@
 # 聲音真偽辨識系統 (Voice Authenticity Detection System)
 
 這個系統使用 WavLM 預訓練模型和深度學習進行AI合成語音跟真實人聲辨識（real vs fake 聲音檢測）。
-[https://github.com/ttcyt/Group15_code/blob/main/demo.mov]
+![https://github.com/ttcyt/Group15_code/blob/main/demo.mov]
 
 ## 目錄
 - [系統要求](#系統要求)
